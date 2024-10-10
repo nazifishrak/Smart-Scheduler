@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Task } from './types';
-import TaskForm from './components/TaskForm';
+import TaskForm from './components/TaskForm.tsx';
 import TaskList from './components/TaskList';
 import Drawer from './components/Drawer';
 import { ListTodo, Calendar } from 'lucide-react';
