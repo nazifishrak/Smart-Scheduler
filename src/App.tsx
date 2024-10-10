@@ -42,7 +42,7 @@ function App() {
         <header className="mb-8 flex justify-between items-center">
           <h1 className="text-3xl font-bold text-gray-900 flex items-center">
             <ListTodo className="mr-2 h-8 w-8 text-blue-500" />
-            AI-Driven Todo App
+            Smart Scheduler
           </h1>
           <button
             onClick={() => setIsDrawerOpen(true)}
