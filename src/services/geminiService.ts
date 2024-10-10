@@ -36,6 +36,7 @@ export async function generateTimeline(tasks: Task[], calendarEvents: any[] = []
       .join('\n')}
 
     Current time: ${new Date().toLocaleString()}
+    Create a nice visual of an EisenHower Matrix as markdown table
     Hype up the user and motivate them to finish the work as well and don't make the writing too clunky. You should consider proven psychological nudging to make the user successful.
 
     Please create an informative timeline with the following:
@@ -45,6 +46,8 @@ export async function generateTimeline(tasks: Task[], calendarEvents: any[] = []
     4. Brief descriptions or tips on how to approach each task
     5. An overall strategy for completing all tasks efficiently while attending to calendar events
     6. Don't explicitly write the priority and show the timeline in a nice table
+
+    
 
     Additionally, provide a brief summary of the ${
       completedTasks.length
